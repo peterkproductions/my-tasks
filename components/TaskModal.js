@@ -245,6 +245,7 @@ export default function TaskModal({
                 <option value="Not Started">Not Started</option>
                 <option value="In Progress">In Progress</option>
                 <option value="Review">Review</option>
+		<option value="Completed">Completed</option>
               </select>
             </div>
           </div>

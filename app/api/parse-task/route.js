@@ -25,7 +25,7 @@ Required fields when a real task is present:
 - dueDate: string (convert relative terms like "today", "tomorrow", "Friday" into readable dates like "Today", "Tomorrow", "Jul 24" or "YYYY-MM-DD")
 - client: string (e.g. "NMP", "Worden & W", "Personal", "General")
 - priority: string ("High", "Medium", or "Low")
-- stage: string ("Not Started", "In Progress", or "Review")
+- stage: string (must strictly be one of: "Not Started", "In Progress", "Review", "Completed")
 
 Output valid JSON only. Do not wrap in markdown quotes.`;
 
